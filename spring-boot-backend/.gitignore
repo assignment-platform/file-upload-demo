@@ -1,10 +1,11 @@
-<<<<<<< HEAD
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !src/main/resources
 !src/test/**
 
+.settings/
+.project
 ### IntelliJ IDEA ###
 .idea
 *.iws

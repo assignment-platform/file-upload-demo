@@ -2,8 +2,8 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+!src/main/resources
+!src/test/**
 
 ### IntelliJ IDEA ###
 .idea

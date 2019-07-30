@@ -4,6 +4,8 @@ target/
 !src/main/resources
 !src/test/**
 
+bin/
+
 .settings/
 .project
 ### IntelliJ IDEA ###

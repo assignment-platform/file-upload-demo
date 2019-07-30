@@ -16,6 +16,7 @@ import java.util.UUID;
 public class AssignmentController {
     @PostMapping("/assignment/upload")
     public String upload(MultipartFile file) throws IOException {
+        // UUID能够保证每次生成的字符串是唯一的
         String filename = UUID.randomUUID().toString();
         Path filepath = Path.of("D:", filename);
         file.transferTo(filepath);
